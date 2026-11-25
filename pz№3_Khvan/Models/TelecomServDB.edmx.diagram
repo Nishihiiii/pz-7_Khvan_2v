@@ -30,6 +30,7 @@
         <AssociationConnector Association="TelecomServicesDBModel.FK_ServiceRequests_Status" ManuallyRouted="false" />
         <AssociationConnector Association="TelecomServicesDBModel.FK_ServiceRequests_Clients" />
         <AssociationConnector Association="TelecomServicesDBModel.FK_ServiceRequests_Services" />
+        <EntityTypeShape EntityType="TelecomServicesDBModel.LoginHistory" Width="1.5" PointX="14" PointY="1.25" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

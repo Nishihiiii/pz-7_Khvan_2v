@@ -20,12 +20,10 @@ namespace pz_3_Khvan.Services
 			{
 				byte[] rawBuffer = Encoding.UTF8.GetBytes(userSecretKey);
 
-				byte[] calculatedDigest =
-					sha256Transformer.ComputeHash(rawBuffer);
+				byte[] calculatedDigest = sha256Transformer.ComputeHash(rawBuffer);
 
 				string formattedResultString =
-					BitConverter.ToString(calculatedDigest)
-					.Replace("-", string.Empty);
+					BitConverter.ToString(calculatedDigest).Replace("-", string.Empty);
 
 				return formattedResultString;
 			}

@@ -39,10 +39,6 @@ namespace pz_3_Khvan
 			else
 				btnBack.Visibility = Visibility.Hidden;
 
-			if (FrmMain.Content is Autho autho)
-			{
-				autho.ResetFields();
-			}
 		}
 
 	}

@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pz_3_Khvan"
         mc:Ignorable="d"
-        Title="Практическая работа 6" Height="450" Width="800" Icon="/Resources/barvinok.ico">
+        Title="Практическая работа 7" Width="800" MinHeight="450" SizeToContent="Height">
 	<Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="3*"/>
 			<ColumnDefinition Width="197*"/>
-		</Grid.ColumnDefinitions>
+		</Grid.ColumnDefinitions> 
 		<Grid.RowDefinitions>
 			<RowDefinition Height="60"/>
 			<RowDefinition Height="*"/>

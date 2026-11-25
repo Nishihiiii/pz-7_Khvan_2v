@@ -38,5 +38,6 @@ namespace pz_3_Khvan.Models
         public DbSet<Status> Status { get; set; }
         public DbSet<sysdiagrams> sysdiagrams { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<LoginHistory> LoginHistory { get; set; }
     }
 }

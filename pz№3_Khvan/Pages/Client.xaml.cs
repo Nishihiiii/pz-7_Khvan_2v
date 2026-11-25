@@ -16,9 +16,7 @@ using System.Windows.Shapes;
 
 namespace pz_3_Khvan.Pages
 {
-	/// <summary>
-	/// Логика взаимодействия для Client.xaml
-	/// </summary>
+
 	public partial class Client : Page
 	{
 		private Users _user;
